@@ -3,4 +3,8 @@
 
 # dna = input("Digite a sequência de DNA: ")
 
-dna1 = "AAGCTA"
+dna = "AAGCTA"
+
+novodna = dna.replace("A", "T")
+
+print(novodna)

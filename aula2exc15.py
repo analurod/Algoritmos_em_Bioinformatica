@@ -6,4 +6,4 @@ dna = "ATGCGTA"
 
 dna2 = dna[::-1]
 
-print(f'O gene {dna2}')
+print(f'O gene: {dna2}')

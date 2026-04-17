@@ -1,7 +1,6 @@
-# Lista 8 - Exercício 11
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 11")
+# 11) Matriz identidade 5x5
 
-if __name__ == "__main__":
-    main()
+identidade = np.eye(5)
+print(identidade)

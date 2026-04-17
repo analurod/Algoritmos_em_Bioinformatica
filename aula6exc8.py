@@ -1,7 +1,15 @@
-# Lista 6 - Exercício 8
+# 8) Aproveitamento de um jogador de futebol
 
-def main():
-    print("Executando Lista 6 - Exercício 8")
+jogador = {}
+jogador["nome"] = input("Nome do jogador: ")
+partidas = int(input("Quantas partidas ele jogou? "))
 
-if __name__ == "__main__":
-    main()
+gols = []
+for i in range(partidas):
+    gols_partida = int(input(f"Quantos gols na partida {i+1}? "))
+    gols.append(gols_partida)
+
+jogador["gols"] = gols
+jogador["total"] = sum(gols)
+
+print(jogador)

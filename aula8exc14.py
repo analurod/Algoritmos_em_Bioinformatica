@@ -1,7 +1,9 @@
-# Lista 8 - Exercício 14
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 14")
+# 14) Array 1D com 12 elementos e reshape para 3x4
 
-if __name__ == "__main__":
-    main()
+a = np.arange(1, 13)
+matriz = a.reshape(3, 4)
+
+print(a)
+print(matriz)

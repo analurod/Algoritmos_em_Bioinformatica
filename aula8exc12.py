@@ -1,7 +1,6 @@
-# Lista 8 - Exercício 12
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 12")
+# 12) Matriz 4x4 com números aleatórios entre 0 e 1
 
-if __name__ == "__main__":
-    main()
+matriz = np.random.rand(4, 4)
+print(matriz)

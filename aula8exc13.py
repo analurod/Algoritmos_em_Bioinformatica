@@ -1,7 +1,9 @@
-# Lista 8 - Exercício 13
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 13")
+# 13) Média, desvio padrão e soma total
 
-if __name__ == "__main__":
-    main()
+a = np.array([2, 4, 6, 8, 10])
+
+print("Média:", np.mean(a))
+print("Desvio padrão:", np.std(a))
+print("Soma total:", np.sum(a))

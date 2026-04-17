@@ -1,7 +1,9 @@
-# Lista 7 - Exercício 11
+# 11) Potência Recursiva
 
-def main():
-    print("Executando Lista 7 - Exercício 11")
+def potencia(base, expoente):
+    if expoente == 0:
+        return 1
+    return base * potencia(base, expoente - 1)
 
-if __name__ == "__main__":
-    main()
+
+print(potencia(2, 2))

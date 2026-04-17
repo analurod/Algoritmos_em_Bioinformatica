@@ -1,7 +1,8 @@
-# Lista 8 - Exercício 9
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 9")
+# 9) Calcular e^x para x = [0, 1, 2, 3, 4]
 
-if __name__ == "__main__":
-    main()
+x = np.array([0, 1, 2, 3, 4])
+resultado = np.exp(x)
+
+print(resultado)

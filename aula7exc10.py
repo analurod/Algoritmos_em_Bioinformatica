@@ -1,7 +1,16 @@
-# Lista 7 - Exercício 10
+# 10) Contador Global
 
-def main():
-    print("Executando Lista 7 - Exercício 10")
+total_chamadas = 0
 
-if __name__ == "__main__":
-    main()
+
+def registrar_operacao(operacao):
+    global total_chamadas
+    print("Operação realizada:", operacao)
+    total_chamadas += 1
+
+
+registrar_operacao("soma")
+registrar_operacao("subtração")
+registrar_operacao("divisão")
+
+print("Total de operações realizadas:", total_chamadas)

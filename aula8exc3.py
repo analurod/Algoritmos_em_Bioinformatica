@@ -1,7 +1,5 @@
-# Lista 8 - Exercício 3
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 3")
-
-if __name__ == "__main__":
-    main()
+# 3) Array com 15 valores igualmente espaçados entre 0 e 5
+a = np.linspace(0, 5, 15)
+print(a)

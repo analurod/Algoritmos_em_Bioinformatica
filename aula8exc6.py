@@ -1,7 +1,10 @@
-# Lista 8 - Exercício 6
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 6")
+# 6) Operações com x e y
 
-if __name__ == "__main__":
-    main()
+x = np.array([1, 2, 3])
+y = np.array([4, 5, 6])
+
+print("Soma:", x + y)
+print("Multiplicação:", x * y)
+print("Subtração y - x:", y - x)

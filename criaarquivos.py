@@ -27,8 +27,8 @@ if __name__ == "__main__":
     print("Arquivos criados com sucesso!")
 
 
-# Caminho (o seu está certo 👍)
-base_path = r"C:\Users\analu\OneDrive\Desktop\Repositorios\Algoritmos_em_Bioinformatica"
+# Caminho
+base_path = r"coloquecaminho"
 
 listas = {
     6: 8,

@@ -1,7 +1,5 @@
-# Lista 8 - Exercício 1
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 1")
-
-if __name__ == "__main__":
-    main()
+# 1) Array com inteiros de 10 a 19
+a = np.arange(10, 20)
+print(a)

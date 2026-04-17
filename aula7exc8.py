@@ -1,7 +1,13 @@
-# Lista 7 - Exercício 8
+# 8) Tabela de Referência de Glicemia
 
-def main():
-    print("Executando Lista 7 - Exercício 8")
+import random
 
-if __name__ == "__main__":
-    main()
+
+def tabela_glicemia(paciente, n_medicoes=5):
+    print(f"Medições de glicemia de {paciente}:")
+    for i in range(n_medicoes):
+        valor = random.randint(70, 200)
+        print(f"Medição {i+1}: {valor} mg/dL")
+
+
+tabela_glicemia("Ana")

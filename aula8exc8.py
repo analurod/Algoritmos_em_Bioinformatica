@@ -1,7 +1,9 @@
-# Lista 8 - Exercício 8
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 8")
+# 8) Produto matricial usando np.dot()
 
-if __name__ == "__main__":
-    main()
+a = np.array([[1, 2], [3, 4]])
+b = np.array([[5, 6], [7, 8]])
+
+produto = np.dot(a, b)
+print(produto)

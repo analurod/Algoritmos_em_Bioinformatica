@@ -1,7 +1,17 @@
-# Lista 7 - Exercício 6
+# 6) Estatísticas de Sinais Vitais
 
-def main():
-    print("Executando Lista 7 - Exercício 6")
+def analisar_sinais(leituras):
+    media = sum(leituras) / len(leituras)
+    desvio = max(leituras) - min(leituras)
+    maior = max(leituras)
+    menor = min(leituras)
+    return media, desvio, maior, menor
 
-if __name__ == "__main__":
-    main()
+
+leituras = [120, 125, 118, 130, 122]
+media, desvio, maior, menor = analisar_sinais(leituras)
+
+print("Média:", media)
+print("Desvio:", desvio)
+print("Maior:", maior)
+print("Menor:", menor)

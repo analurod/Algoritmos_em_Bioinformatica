@@ -1,7 +1,5 @@
-# Lista 8 - Exercício 2
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 2")
-
-if __name__ == "__main__":
-    main()
+# 2) Matriz 3x4 preenchida com zeros do tipo float
+matriz = np.zeros((3, 4), dtype=float)
+print(matriz)

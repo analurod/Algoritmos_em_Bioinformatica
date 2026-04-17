@@ -1,7 +1,9 @@
-# Lista 8 - Exercício 15
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 15")
+# 15) Concatenar dois arrays 1D de 5 elementos
 
-if __name__ == "__main__":
-    main()
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([6, 7, 8, 9, 10])
+
+c = np.concatenate((a, b))
+print(c)

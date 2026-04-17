@@ -1,7 +1,9 @@
-# Lista 8 - Exercício 4
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 4")
+# 4) Converter array inteiro para float64
+a = np.array([1, 2, 3, 4, 5])
+b = a.astype(np.float64)
 
-if __name__ == "__main__":
-    main()
+print(a)
+print(b)
+print(b.dtype)

@@ -1,7 +1,6 @@
-# Lista 6 - Exercício 6
+# 6) Criar um set com todos os caracteres únicos em uma string
 
-def main():
-    print("Executando Lista 6 - Exercício 6")
+texto = input("Digite uma string: ")
+caracteres_unicos = set(texto)
 
-if __name__ == "__main__":
-    main()
+print(caracteres_unicos)

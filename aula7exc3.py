@@ -1,7 +1,10 @@
-# Lista 7 - Exercício 3
+# 3) Verificador de Par ou Ímpar
 
-def main():
-    print("Executando Lista 7 - Exercício 3")
+def par_ou_impar(numero):
+    if numero % 2 == 0:
+        return "par"
+    return "ímpar"
 
-if __name__ == "__main__":
-    main()
+
+for n in [1, 2, 7, 10, 13]:
+    print(n, "->", par_ou_impar(n))

@@ -1,7 +1,9 @@
-# Lista 7 - Exercício 12
+# 12) Soma Recursiva de Dígitos
 
-def main():
-    print("Executando Lista 7 - Exercício 12")
+def soma_digitos(n):
+    if n < 10:
+        return n
+    return n % 10 + soma_digitos(n // 10)
 
-if __name__ == "__main__":
-    main()
+
+print(soma_digitos(1234))

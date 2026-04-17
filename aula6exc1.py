@@ -1,7 +1,12 @@
-# Lista 6 - Exercício 1
+# 1) Gere um dicionário onde cada chave é um caractere e o valor é a quantidade na frase
 
-def main():
-    print("Executando Lista 6 - Exercício 1")
+frase = input("Digite uma frase: ")
+contagem = {}
 
-if __name__ == "__main__":
-    main()
+for caractere in frase:
+    if caractere in contagem:
+        contagem[caractere] += 1
+    else:
+        contagem[caractere] = 1
+
+print(contagem)

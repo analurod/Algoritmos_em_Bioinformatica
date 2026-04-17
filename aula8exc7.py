@@ -1,7 +1,8 @@
-# Lista 8 - Exercício 7
+import numpy as np
 
-def main():
-    print("Executando Lista 8 - Exercício 7")
+# 7) Subtraia 1 de todos os elementos e multiplique o resultado por 2
 
-if __name__ == "__main__":
-    main()
+z = np.array([2, 4, 6, 8])
+resultado = (z - 1) * 2
+
+print(resultado)

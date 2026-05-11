@@ -31,9 +31,7 @@ if __name__ == "__main__":
 base_path = r"coloquecaminho"
 
 listas = {
-    6: 8,
-    7: 12,
-    8: 15
+    9: 8,
 }
 
 criar_arquivos_exercicios(base_path, listas)

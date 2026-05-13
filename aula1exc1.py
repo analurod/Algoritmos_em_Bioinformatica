@@ -9,4 +9,4 @@ peso = float(input('Digite seu peso: '))
 imc = peso/(altura * altura)
 
 print(f'{nome} tem {peso} kilos e altura de {
-      altura} e portanto o IMC é de {imc:4.1f}.')
+      altura} e portanto o IMC é de {imc:.1f}.')
